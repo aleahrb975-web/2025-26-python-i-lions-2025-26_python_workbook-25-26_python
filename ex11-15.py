@@ -1,3 +1,5 @@
+import math
+
 """
 Exercise 11: Fuel Efficiency
 In the United States, fuel efficiency for vehicles is normally expressed
@@ -35,6 +37,18 @@ the distance with the formula discussed previously.  The math module
 contains a function named RADIANS which converts from degrees to radians.
 """
 
+def earthDistance():
+    t1 = float(input("t1: "))
+    g1 = float(input("g1: "))
+    t2 = float(input("t2: "))
+    g2 = float(input("g2: "))
+    #distance = 6371.01 x arccos(sin(t1) x sin(t2) + cos(t1) x cos(t2) x cos(g1-g2))
+
+    distance = 6371.01 * math.a23
+    cos(math.sin(t2) + math.cos(t1) * math.cos(t2) * math.cos(g1-g2))
+    print(distance)
+
+earthDistance()
 """
 Exercise 13: Making Change
 Consider the software that runs on a self-checkout machine.  One task that

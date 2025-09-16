@@ -6,13 +6,20 @@ address formatted in the manner that you would usually see it
 on the outside of an envelope.  Your program does not need to 
 read any input from the user.  (9 lines)
 """
+def address():
+    print("Aleah\n8841 Rambling Ridge Dr\nWest Chester, OH, 45069")
 
+address()
 """
 Exercise 2:  Hello
 Write a program that asks the user to enter his or her name.  
 The program should respond with a message that says hello to 
 the user, using his or her name.  (9 lines)
 """
+def hello(name):
+    print("Hello, {name}")
+
+hello()
 
 """
 Exercise 3:  Area of a Room

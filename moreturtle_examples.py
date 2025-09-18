@@ -25,12 +25,17 @@ def forward100():
 def right90():
     poly.right(90)
 
+def make_circle():
+    poly.circle(50)
+
 #screen is a Screen object and it has behaviors
-# like onkey, onpress
+# like onkey, onkeypress
 screen.onkey(forward100, "Up")
 screen.onkey(right90, "Right")
+screen.onkeypress(make_circle, "Space")
 
 screen.listen()
 screen.mainloop()
+
 # Keep the window open until clicked
 turtle.done()

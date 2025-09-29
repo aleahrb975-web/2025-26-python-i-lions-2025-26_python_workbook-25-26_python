@@ -108,6 +108,17 @@ def printMonths():
 def turnLeft3645(aTurtle):
     aTurtle.left(3645)
 
+def iterationExercise():
+    xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+    sum = 0
+    product = 1
+    for x in xs:
+        sum = sum + x
+        product = product * x
+        print(x, " -- ", x**2)
+    print ("The sum of the numbers is ", sum, " and the product is ", product)
+
+
 #TEST SUITE
 
 #funActivityWithTurtles()
@@ -120,9 +131,10 @@ screen.onkey(make_circle, "Left")
 #rainbow()
 #backForth()
 
-print1000times("I love Python")
-printMonths()
-turnLeft3645(poly)
+#print1000times("I love Python")
+#printMonths()
+#turnLeft3645(poly)
+iterationExercise()
 #square(poly)
 #square(lion)
 

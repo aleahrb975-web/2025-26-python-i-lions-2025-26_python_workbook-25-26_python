@@ -26,10 +26,10 @@ poly.shape("turtle")
 #   not return a value, it simply performs an action,
 #   which is to turn the turtle 90 degrees to the right
 
-def square(aTurtle):
+def square():
     for i in range(4):
-        aTurtle.forward(100)
-        aTurtle.right(90)
+        poly.forward(100)
+        poly.right(90)
 
 def pentagon():
     for i in range(5):

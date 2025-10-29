@@ -1,1 +1,13 @@
+#Truth tables
+def tables( a, b, c ):
+    print( a and (b or c) )
+    return
+tables( False, False, False )
+tables( False, False, True )
+tables( False, True, False )
+tables( False, True, True )
+tables( True, False, False )
+tables( True, False, True )
+tables( True, True, False )
+tables( True, True, True )
 

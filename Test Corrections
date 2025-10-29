@@ -1,3 +1,4 @@
+
 #Truth tables
 def tables( a, b, c ):
     print( a and (b or c) )
